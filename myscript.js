@@ -11,7 +11,8 @@ function getComputerChoice() {
             return `paper`;
         case 3:
             return `scissor`;
-    }   
+    } 
+
 }
 
 function playRound(playerSelection, computerSelection) {
@@ -40,7 +41,34 @@ function playRound(playerSelection, computerSelection) {
                 return `You Lose! Rock beats Scissor`;
             } else {
                 return `You Win! Scissor beats Paper`;
-            }
+            }         
     }
+
 }
 
+function game() {
+    let playerScore, computerScore;
+
+    for (let i = 0; i < 5; i++) {
+        let playerSelection = prompt(`Rock, Paper or Scissor?`, ``);
+        let result = playRound(playerSelection, getComputerChoice());
+        console.log(result);
+        
+        if (result.substring(0, 8) === `You Win!`) {
+            playerScore++;
+        } else if (result.substring(0, 9) === `You Lose!`) {
+            computerScore++;
+        } else {
+            console.log(`Same!`);
+            playerScore++;
+            computerScore++;
+        }
+    }
+
+    if (playerScore > computerScore) {
+        console.log(`Congrats! You Won!`);
+    } else {
+        console.log(`You Lost!`);
+    }
+
+}
