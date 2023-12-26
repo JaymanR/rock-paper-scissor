@@ -1,0 +1,23 @@
+[33mcommit bd3994d0b1953a95353ed563c76a06fd3a69e775[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: JaymanR <jayman.code@gmail.com>
+Date:   Wed Oct 18 01:36:04 2023 -0400
+
+    complete rock-paper-scissor console version
+
+[33mcommit 2ab1a44c656445f580fd722619a6e1ab7e08bf1e[m
+Author: JaymanR <jayman.code@gmail.com>
+Date:   Wed Oct 18 00:59:13 2023 -0400
+
+    write function playRound()
+
+[33mcommit 036fdf5b538e2fe05d356d4ccf21bb4067a84f9c[m
+Author: JaymanR <jayman.code@gmail.com>
+Date:   Wed Oct 18 00:16:57 2023 -0400
+
+    write function 'getComputerChoice()'
+
+[33mcommit 6634ac4fbf1ff064f6e392f72ca2c0cf8f6226eb[m
+Author: JaymanR <111602593+JaymanR@users.noreply.github.com>
+Date:   Tue Oct 17 23:56:27 2023 -0400
+
+    Initial commit

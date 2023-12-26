@@ -1,0 +1,49 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+}
+
+#game-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px;
+}
+
+#player-column, #ai-column {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#player-options, #ai-option {
+    border: 1px solid;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+html, body {
+    height: 100vh;
+    margin: 0;
+}
