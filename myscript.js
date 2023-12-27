@@ -99,15 +99,12 @@ buttons.forEach((button) => {
                 versusText.textContent = `${button.textContent} v.s. ${ComputerChoice}`;
                 outputText.textContent = result;
             }
-        } else {
+        }
             if (+playerScore.textContent === 5) {
-                versusText = result.substring(7);
                 outputText.textContent = "Congrats! You won the game."
             } else if (+computerScore.textContent === 5) {
-                versusText = result.substring(8);
                 outputText.textContent = "You lost the game!"
             }
-        }
         output.appendChild(outputText);
     });
 });
