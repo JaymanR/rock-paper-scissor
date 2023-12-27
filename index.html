@@ -12,7 +12,7 @@
         <h1>Rock Paper Scissor</h1>
         <div id="game-body">
             <div id="player-column">
-                <p>Player</p>               
+                <p>Player: <span id="player-score">0</span></p>               
             <div id="player-options">
                 <div class="option">
                     <img src="./images/rock.jpg">
@@ -28,13 +28,16 @@
                 </div>
             </div>
             </div>
-            <div id="output-text">V.S.</div>
+            <div id="output">
+                <div id="versus-text">v.s.</div>
+                <!-- <div id="output-text"></div> -->
+            </div>
             <div id="ai-column">
-                <p>AI</p>
+                <p>Bot: <span id="bot-score">0</span></p>
                 <div id="ai-option">
                     <div class="option">
                         <img src="./images/bot.jpg">
-                        <button>Rock</button>
+
                     </div>
             </div>
             </div>
