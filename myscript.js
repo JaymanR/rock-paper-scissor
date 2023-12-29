@@ -108,6 +108,5 @@ if (!outputColumn) {
 
     }
 
-    //outputColumn.appendChild(outputText);
   });
 });
