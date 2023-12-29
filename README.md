@@ -10,4 +10,5 @@ First to 5 points wins the game, the points or the score is displayed above the 
 
 Once 5 points have been reached by the player or the bot, the selection buttons will no longer function and the plyer will have to click the "Play Again" button to start a new game to play again.
 
-You can test the Rock Paper Scissor game here: Jaymanr.github.io/rock-paper-scissor
+You can test the Rock Paper Scissor game here: 
+[Rock Paper Scissor Game](https://JaymanR.github.io/rock-paper-scissor/)
